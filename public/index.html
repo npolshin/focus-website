@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Focus marathon</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Vollkorn:wght@700;900&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="./build/tailwind.css" />
+		<link rel="stylesheet" href="./styles/swiper.css" />
+	</head>
+
+	<body class="bg-blackish">
+		<nav>
+			<div class="flex justify-center">
+				<img class="w-32 h-16 object-contain" src="./img/logo.png" alt="logo" />
+			</div>
+		</nav>
+		<div class="container mx-auto p-4 space-y-24">
+			<section class="flex flex-col items-center">
+				<img class="w-2/3 md:w-1/2 lg:w-1/3 mb-4" src="./img/grad2.svg" alt="grad" />
+				<h1 class="font-serif font-black text-2xl lg:text-4xl text-white mb-2">Поступить в <span class="text-pink">ВУЗ мечты</span></h1>
+				<span class="font-serif font-bold text-xl lg:text-2xl text-white mb-4">Сидя на <span class="text-pink">карантине</span></span>
+				<a class="w-2/3 lg:w-1/3 mt-8" href="#">
+					<div class="rounded-full bg-pink w-full text-center text-xl py-2 font-bold text-white">
+						<span>Поступить</span>
+					</div>
+					<p class="text-center text-white mt-4">Прими участие в марафоне</p>
+				</a>
+				<svg class="w-8 h-8 mt-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+				</svg>
+			</section>
+			<section class="flex flex-col items-center">
+				<img class="w-2/3 md:w-1/2 lg:w-1/3 mb-4" src="./img/uni.svg" alt="uni" />
+				<div class="p-8 space-y-16 w-full lg:w-2/3">
+					<p class="text-pink">
+						Качество образования, интересная работа, общение с людьми со всего мира, путешествия по миру - все это, каждый год привлекает
+						тысячи студентов к учебе в лучших университетах Америки, Европы и Азии.
+					</p>
+					<p class="font-serif text-white font-black text-2xl text-center">
+						Работая нами вы сможете выделиться и воплотить свою мечту в реальность.
+					</p>
+				</div>
+			</section>
+			<section class="flex flex-col items-center">
+				<img class="w-2/3 md:w-1/2 lg:w-1/3 mb-4" src="./img/question.svg" alt="question" />
+				<h2 class="font-serif font-black text-white text-3xl text-center mb-6">
+					Для кого предназначен <span class="text-pink">наш марафон</span>?
+				</h2>
+				<p class="font-sans text-base text-white mb-8 font-bold">Наш марафон создан для тех кто...</p>
+				<div class="grid grid-cols-2 w-full lg:w-2/3 text-sm gap-4">
+					<div class="flex w-full space-x-2">
+						<p class="text-3xl">🏫</p>
+						<p class="text-white">Уже законил или заканчивает школу</p>
+					</div>
+					<div class="flex w-full space-x-2">
+						<p class="text-3xl">🔮</p>
+						<p class="text-white">Хочет изменить свое будущее</p>
+					</div>
+					<div class="flex w-full space-x-2">
+						<p class="text-3xl">🔬</p>
+						<p class="text-white">Хочет найти свою специальность</p>
+					</div>
+					<div class="flex w-full space-x-2">
+						<p class="text-3xl">👌</p>
+						<p class="text-white">Хочет сделать правильный выбор ВУЗа</p>
+					</div>
+					<div class="flex w-full space-x-2">
+						<p class="text-3xl">💸</p>
+						<p class="text-white">Хочет найти финансирование для своего обучения</p>
+					</div>
+					<div class="flex w-full space-x-2">
+						<p class="text-3xl">👪</p>
+						<p class="text-white">Хочет узнать как убедить родителей отпустить зарубеж</p>
+					</div>
+				</div>
+			</section>
+			<section class="flex flex-col items-center">
+				<h2 class="font-serif font-black text-white text-3xl text-center mb-6">
+					Как будет проходить <span class="text-pink">марафон</span>?
+				</h2>
+				<!-- Slider main container -->
+				<div class="swiper-container w-full rounded-xl">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide rounded-xl">
+							<div class="flex flex-col items-center justify-evenly p-4 h-full">
+								<h3 class="font-serif text-pink font-bold text-2xl">Ментальный</h3>
+								<img class="w-2/3" src="./img/goals.svg" alt="question" />
+								<ul class="space-y-6">
+									<li>
+										<p class="text-left">- Как ставить цели и как их достигать</p>
+									</li>
+									<li>
+										<p class="text-left">- Почему выбор профессии ваден и что такое major?</p>
+									</li>
+									<li>
+										<p class="text-left">- Как выбрать страну в которую ты хочешь уехать</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="swiper-slide rounded-xl">
+							<div class="flex flex-col items-center justify-evenly p-4 h-full">
+								<h3 class="font-serif text-pink font-bold text-2xl">Страны и методы поступления</h3>
+								<img class="w-1/2" src="./img/location.svg" alt="question" />
+								<ul class="space-y-4">
+									<li>
+										<p class="text-left">CША и Канада: Мотивационное письмо.</p>
+									</li>
+									<li>
+										<p class="text-left">Азия: Гонконг и Южная Корея; Резюме</p>
+									</li>
+									<li>
+										<p class="text-left">Западная европа; Создание план extracurricular activities</p>
+									</li>
+									<li>
+										<p class="text-left">Восточная Европа: Венгрия; Поиска финансирования</p>
+									</li>
+									<li>
+										<p class="text-left">Средний восток; Турция; Создание плана</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="swiper-slide rounded-xl">
+							<div class="flex flex-col items-center justify-evenly p-4 h-full">
+								<h3 class="font-serif text-pink font-bold text-2xl">Психология</h3>
+								<img class="w-1/2" src="./img/thoughts.svg" alt="question" />
+								<ul class="space-y-4">
+									<li>
+										<p class="text-left">Как посчитать деньги, которые понадобятся?</p>
+									</li>
+									<li>
+										<p class="text-left">Как убедить своих родителей?</p>
+									</li>
+									<li>
+										<p class="text-left">Как найти свое предназначение?</p>
+									</li>
+									<li>
+										<p class="text-left">Как не потерять мотивацию и поступить в ВУЗ?</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+			<section class="flex flex-col items-center">
+				<img class="w-2/3 md:w-1/2 lg:w-1/3 mb-4" src="./img/product.svg" alt="product" />
+				<h2 class="font-serif font-black text-white text-3xl text-center mb-6">
+					Что вы получаете на <span class="text-pink">марафоне</span>?
+				</h2>
+				<div class="grid grid-cols-1 md:grid-cols-2 w-full lg:w-2/3 text-sm gap-4">
+					<div class="flex flex-col items-start w-full">
+						<div class="flex items-end space-x-2">
+							<span class="text-3xl">🔧</span>
+							<h3 class="font-serif text-white font-bold text-xl">Навыки</h3>
+						</div>
+						<p class="text-white">Наши спикеры научат вас писать мотивационные письма запросы в ВУЗы и прочие документы</p>
+					</div>
+					<div class="flex flex-col items-start w-full">
+						<div class="flex items-end space-x-2">
+							<span class="text-3xl">📚</span>
+							<h3 class="font-serif text-white font-bold text-xl">Систематические Знания</h3>
+						</div>
+						<p class="text-white">Наши спикеры научат вас писать мотивационные письма запросы в ВУЗы и прочие документы</p>
+					</div>
+					<div class="flex flex-col items-start w-full">
+						<div class="flex items-end space-x-2">
+							<span class="text-3xl">💬</span>
+							<h3 class="font-serif text-white font-bold text-xl">Полезные советы</h3>
+						</div>
+						<p class="text-white">Наши спикеры научат вас писать мотивационные письма запросы в ВУЗы и прочие документы</p>
+					</div>
+					<div class="flex flex-col items-start w-full">
+						<div class="flex items-end space-x-2">
+							<span class="text-3xl">💡</span>
+							<h3 class="font-serif text-white font-bold text-xl">Опыт</h3>
+						</div>
+						<p class="text-white">Наши спикеры научат вас писать мотивационные письма запросы в ВУЗы и прочие документы</p>
+					</div>
+					<div class="flex flex-col items-start w-full">
+						<div class="flex items-end space-x-2">
+							<span class="text-3xl">‍💼</span>
+							<h3 class="font-serif text-white font-bold text-xl">Менторскую помощь</h3>
+						</div>
+						<p class="text-white">Наши спикеры научат вас писать мотивационные письма запросы в ВУЗы и прочие документы</p>
+					</div>
+				</div>
+			</section>
+			<section class="flex flex-col items-center">
+				<h2 class="font-serif font-black text-white text-3xl text-center mb-6">Давай <span class="text-pink">знакомиться</span>!</h2>
+				<!-- Slider main container -->
+				<div class="swiper-container w-full rounded-xl">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide rounded-xl">
+							<div class="flex flex-col items-center justify-evenly p-4 h-full">
+								<h3 class="font-serif text-pink font-bold text-2xl">Ментальный</h3>
+								<img class="w-2/3" src="./img/goals.svg" alt="question" />
+								<ul class="space-y-6">
+									<li>
+										<p class="text-left">- Как ставить цели и как их достигать</p>
+									</li>
+									<li>
+										<p class="text-left">- Почему выбор профессии ваден и что такое major?</p>
+									</li>
+									<li>
+										<p class="text-left">- Как выбрать страну в которую ты хочешь уехать</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="swiper-slide rounded-xl">
+							<div class="flex flex-col items-center justify-evenly p-4 h-full">
+								<h3 class="font-serif text-pink font-bold text-2xl">Страны и методы поступления</h3>
+								<img class="w-1/2" src="./img/location.svg" alt="question" />
+								<ul class="space-y-4">
+									<li>
+										<p class="text-left">CША и Канада: Мотивационное письмо.</p>
+									</li>
+									<li>
+										<p class="text-left">Азия: Гонконг и Южная Корея; Резюме</p>
+									</li>
+									<li>
+										<p class="text-left">Западная европа; Создание план extracurricular activities</p>
+									</li>
+									<li>
+										<p class="text-left">Восточная Европа: Венгрия; Поиска финансирования</p>
+									</li>
+									<li>
+										<p class="text-left">Средний восток; Турция; Создание плана</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="swiper-slide rounded-xl">
+							<div class="flex flex-col items-center justify-evenly p-4 h-full">
+								<h3 class="font-serif text-pink font-bold text-2xl">Психология</h3>
+								<img class="w-1/2" src="./img/thoughts.svg" alt="question" />
+								<ul class="space-y-4">
+									<li>
+										<p class="text-left">Как посчитать деньги, которые понадобятся?</p>
+									</li>
+									<li>
+										<p class="text-left">Как убедить своих родителей?</p>
+									</li>
+									<li>
+										<p class="text-left">Как найти свое предназначение?</p>
+									</li>
+									<li>
+										<p class="text-left">Как не потерять мотивацию и поступить в ВУЗ?</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+			<section class="flex flex-col">
+				<h2 class="font-serif font-black text-white text-3xl text-center mb-6">Как стать <span class="text-pink">участником</span>?</h2>
+				<form class="flex flex-col items-center space-y-4">
+					<div class="w-full md:w-1/3 flex justify-around">
+						<label class="inline-flex items-center mt-3">
+							<input type="radio" name="course" value="premium" class="form-radio h-5 w-5 text-gray-600" /><span
+								class="ml-2 text-white font-bold"
+								>Премиум</span
+							>
+						</label>
+						<label class="inline-flex items-center mt-3">
+							<input type="radio" name="course" value="base" class="form-radio h-5 w-5 text-gray-600" /><span
+								class="ml-2 text-white font-bold"
+								>Базовый</span
+							>
+						</label>
+					</div>
+					<div class="w-full md:w-1/3 flex flex-col">
+						<label class="text-white font-bold text-lg" for="fullname">ФИО</label>
+						<input class="w-full px-4 py-2 rounded" type="text" name="fullname" id="fullname" />
+					</div>
+					<div class="w-full md:w-1/3 flex flex-col">
+						<label class="text-white font-bold text-lg" for="email">Эл.адрес</label>
+						<input class="w-full px-4 py-2 rounded" type="email" name="email" id="fullname" />
+					</div>
+					<div class="w-full md:w-1/3 flex flex-col">
+						<label class="text-white font-bold text-lg" for="number">Телефон</label>
+						<input class="w-full px-4 py-2 rounded" type="text" name="number" id="fullname" />
+					</div>
+					<div class="w-full md:w-1/3 flex flex-col">
+						<label class="text-white font-bold text-lg" for="promo">Промокод</label>
+						<input class="w-full px-4 py-2 rounded" type="text" name="promo" id="fullname" />
+					</div>
+					<div class="w-full md:w-1/3 flex flex-col">
+						<input class="rounded-full bg-pink w-full text-center text-xl py-2 font-bold text-white" type="submit" value="Отправить" />
+					</div>
+				</form>
+			</section>
+		</div>
+		<script src="./js/swiper.js"></script>
+	</body>
+</html>
